@@ -16,8 +16,10 @@ ActiveRecord::Schema.define(version: 2018_10_18_200720) do
   enable_extension "plpgsql"
 
   create_table "poses", force: :cascade do |t|
-    t.string "name"
+    t.string "sanskrit"
     t.string "image"
+    t.string "english"
+    t.string "level"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

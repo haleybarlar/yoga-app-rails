@@ -9,5 +9,5 @@ Rails.application.routes.draw do
 
     end
   end
-  get '/poses', to: 'poses#index'
+  get '/api/v1/poses', to: 'poses#index'
 end
